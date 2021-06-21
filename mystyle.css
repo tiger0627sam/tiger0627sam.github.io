@@ -1,0 +1,34 @@
+body{
+	font-size: 108px;
+}
+ul{
+	font-size: 24px; 
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: black;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0; /*上面的Bar格式*/
+}
+li{
+	float: left;
+}
+li.email {
+	float: right;
+}
+li a {
+	display: block; /*以區塊方式呈現*/
+	color: white; /*字體顏色白色*/
+	text-align: center; /*字體置中*/
+	padding: 10px 14px; /*與周邊距離*/
+	text-decoration: none; /*無字體裝飾 */
+}
+li a:hover:not(.active) {
+	background-color: gray;/* 背景顏色 */
+}
+li a.active {
+	background-color: orange;
+}
+	
