@@ -31,4 +31,31 @@ li a:hover:not(.active) {
 li a.active {
 	background-color: orange;
 }
-	
+table {
+	background-color: rgb(255, 224, 140);
+	font-size: 24px;
+}
+button{
+    text-align: center;
+    display: inline-block;
+    width: 95px;
+    height: 30px;
+    border: 3px;
+    background-color: #ff000093;
+    color: black;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px #999;
+}
+button:hover{
+    background-color: #cf000093;
+}
+
+button:active{
+    background-color: #cf000093;
+    box-shadow: 0 2px #666;
+    transform: translateY(2px);
+}
+header{
+	font-size: 96px;
+}
