@@ -1,14 +1,14 @@
-
 <!DOCTYPE html>
 <html>
 	<head>
 		<title>This is the title</title>
 		<link rel="stylesheet" href="mystyle.css">
+        <meta charset="utf-8">
 	</head>
 	<body>
 		<div>
-			<ul>
-				<li><a href="#home">Home</a></li>
+			<ul><!-- 1 -->
+				<li><!-- 2 --><a href="#home">Home</a><!-- 3 --></li>
 				<li><a href="#edu">Education</a></li>
 				<li><a href="#we">Working Experiences</a></li>
 				<li><a href="#proj">Projects</a></li>
@@ -17,17 +17,17 @@
 			</ul>
 		</div>
 		<div>
-			<h1>Tiger HSU<h1>
-			<hr color="blue" size=10>
-			<h4> phone number : 0987654321<h4>
-			<br>
-			<h5> Address : 124 Conch St., Bikini Bottom<h5>
-			<br>
-			<p>Introduction!</p>
+			<header>Name : Tiger HSU</header><!-- 4 -->
+			<hr color="blue" size=2><!-- 5 -->
+			<h2> phone number : 0987654321</h2><!-- 6 -->
+			<h3> Address : 124 Conch St., Bikini Bottom</h3><!-- 7 -->
+			<p>Introduction!</p><!-- 8 -->
+            <button >可以一直按我</button><!-- 9 -->
 		</div>
+        
 		<div>
-			<table border="1">
-			<caption>My Friends</caption>
+			<table border="1"><!-- 10 -->
+			<caption>My Friends</caption><!-- 11 -->
 			<tr>
 				<th>Name</th>
 				<th>Phone</th>
@@ -43,8 +43,10 @@
 				<td>+886-7654321</td>
 				<td>$9,999,999 USD</td>
 			</tr>
-
 		</table>	
 		</div>
+        <script>
+            console.log('Hello');
+        </script>
 	</body>
 </html>
