@@ -1,0 +1,62 @@
+body{
+	text-align: left;
+}
+ul{
+	font-size: 24px; 
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: black;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0; /*上面的Bar格式*/
+}
+li{
+	float: left;
+}
+li.email {
+	float: right;
+}
+li a {
+	display: block; /*以區塊方式呈現*/
+	color: white; /*字體顏色白色*/
+	text-align: center; /*字體置中*/
+	padding: 10px 14px; /*與周邊距離*/
+	text-decoration: none; /*無字體裝飾 */
+}
+li a:hover:not(.active) {
+	background-color: gray;/* 背景顏色 */
+}
+li a.active {
+	background-color: orange;
+}
+table {
+	background-color: azure;
+	font-size: 24px;
+}
+button{
+    text-align: center;
+    display: inline-block;
+    width: 95px;
+    height: 30px;
+    border: 3px;
+    background-color: #ff000093;
+    color: black;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px #999;
+}
+button:hover{
+    background-color: #cf000093;
+}
+
+button:active{
+    background-color: #cf000093;
+    box-shadow: 0 2px #666;
+    transform: translateY(2px);
+}
+header{
+	font-size: 96px;
+}
+	
